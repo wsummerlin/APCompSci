@@ -7,6 +7,9 @@ I'm an experienced programmer and developed all of these examples with a balance
 
 Note - All files import the apcslib.jar library. It can be found here: http://pavao.org/compsci/apcs/apcslib.jar (It will download when you click the link...it shouldn't take you to another page)
 
+To use: create a java project, import apcslib.jar, then create a class within the project with the SAME name as the file (example: drawBenzine). Copy and paste the code - you're good to go. 
+
+Contact me with any questions!! techpulsesoftware@gmail.com
 
 Descriptions:
 =========
@@ -24,11 +27,8 @@ Dependencies
   drawBenzine - apcslib.jar 
 
 
-To use: create a java project, import apcslib.jar, then create a class within the project with the SAME name as the file (example: drawBenzine). Copy and paste the code - you're good to go. 
-
-Contact me with any questions!! techpulsesoftware@gmail.com
-
 Licence:
+=========
 
 Copyright © 2015 Will Summerlin
 
