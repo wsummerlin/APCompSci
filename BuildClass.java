@@ -1,14 +1,14 @@
 //150% House
 //Copyright 2014 @ Will Summerlin 
 //Additions to come (Maybe): Dynamic wind effect, Humidity, Dew, Animation, Interaction 
-
+//YOU NEED TO IMPORT THE dme.forecastiolib.jar library. See README for a link
 
 package house;
 
 import java.awt.Color; //Needed for Color.color
 
 import apcslib.*;
-import dme.forecastiolib.*; //Java API Library - "90d543a4e22434575b817fb87e8f0291"
+import dme.forecastiolib.*; //Java API Library - "API KEY NEEDED"
 
 public class BuildClass {
 	
@@ -99,9 +99,9 @@ public class BuildClass {
 
 	//Compound method - Handles request/parsing | See below
 	public static void request() {
-		ForecastIO fio = new ForecastIO("90d543a4e22434575b817fb87e8f0291");
+		ForecastIO fio = new ForecastIO(/*API KEY HERE*/);
 		fio.setUnits(ForecastIO.UNITS_SI);
-		fio.getForecast("37.5437590", "-122.3065840");
+		fio.getForecast("37.5437590", "-122.3065840"); //Replace
 
 		//Make Call
 		FIOCurrently currently = new FIOCurrently(fio);
@@ -220,6 +220,16 @@ public class BuildClass {
 		marker.move(-50, -180);
 		marker.down();
 		marker.drawString(time);
+
+	}
+	
+	public static void main(String[] args) {
+
+		BuildClass.request(); // Compound method - Handles request/parsing | See therein
+		BuildClass.buildFrame(); // Draws basic house
+		BuildClass.buildDoor(); // Draws door
+		BuildClass.buildWindows(); // Draws windows
+		BuildClass.placeBilly(); // Draws stick figure
 
 	}
 
