@@ -66,7 +66,7 @@ public class DayOf {
 		int easter = p + 1; // Day
 		print("easter", easter);
 
-		System.out.println("Easer in " + y + " falls on " + n + "/" + easter);
+		System.out.println("Easter in " + y + " falls on " + n + "/" + easter);
 
 	}
 
