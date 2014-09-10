@@ -16,7 +16,7 @@ Descriptions:
 
   BuildClass - A cool program that draws a house and changes the color and size of the sun based on the current temperature. The sky color also changes based on some weather data. It interacts with the foracast.io api. It's dependant on the foracastio library. You can get that here: https://github.com/dvdme/forecastio-lib-java. You just need to add the forecastio-lib-java.jar to your project when it's created. 
   
-  drawBenzine - A basic program that will draw a hexagon and then a circle in the hexagon (it's supposed to look like benzine). It has a good while loop example and efficient manor of creating the hexagon.
+  drawBenzine - A basic program that will draw a hexagon and then a circle in the hexagon (it's supposed to look like benzine). It has a good ``while`` loop example and efficient manor of creating the hexagon.
   
   DayOf - An algorithm for calculating the day and month of Easter in the Gregorian calendar. Simply set the int y to the year you want to get the values for and run. For example if you set:
 ```int y = 2003;``` the value ```4/20``` would be printed to the console (along with the value of every object).
