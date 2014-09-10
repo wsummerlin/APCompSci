@@ -1,3 +1,8 @@
+//Copyright 2014 @ Will Summerlin 
+//changeCalc.java 
+//No dependencies
+//Enter INTEGER ammount in console and press enter
+
 import java.util.Scanner;
 
 public class changeCalc {
