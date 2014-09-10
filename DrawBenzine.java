@@ -4,7 +4,7 @@
 import apcslib.*;
 import static java.lang.Math.*; //Needed for sin and cos
 
-public class drawBenzene {
+public class DrawBenzene {
 
 	public static void main(String[] args) {
 		// Declare new objects
