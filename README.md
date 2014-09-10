@@ -5,7 +5,7 @@ Java repository comprised of common lab problems in an AP Computer Science curri
 
 I'm an experienced programmer and developed all of these examples with a balance of efficiency and readability. Feel free to use any code you find helpful. All my methodology practices are pretty standard. 
 
-Note - All files import the apcslib.jar library, unless otherwise stated. It can be found here: http://pavao.org/compsci/apcs/apcslib.jar (It will download when you click the link...it shouldn't take you to another page)
+Note - Some files import the apcslib.jar library. It can be found here: http://pavao.org/compsci/apcs/apcslib.jar (It will download when you click the link...it shouldn't take you to another page)
 
 To use: create a java project, import apcslib.jar, then create a class within the project with the SAME name as the file (example: drawBenzine). Copy and paste the code - you're good to go. 
 
@@ -19,7 +19,9 @@ Descriptions:
   drawBenzine - A basic program that will draw a hexagon and then a circle in the hexagon (it's supposed to look like benzine). It has a good while loop example and efficient manor of creating the hexagon.
   
   DayOf - An algorithm for calculating the day and month of Easter in the Gregorian calendar. Simply set the int y to the year you want to get the values for and run. For example if you set:
-```int y = 2003;``` the value ```4/20``` would be printed to the console (along with the value of every object).    
+```int y = 2003;``` the value ```4/20``` would be printed to the console (along with the value of every object).
+
+  changeCalc - Simple algorithm to calculate the number of coins in any given dollar amount. The program calculates the results based on change, so to enter values $1 or greater without a decimal point (multiply the desired value by 100). For example $0.90 would be entered as ```90``` and $2.94 would be entered as ```294```. 
   
   
 Dependencies 
@@ -30,6 +32,8 @@ Dependencies
   drawBenzine - apcslib.jar 
   
   DayOf - None
+  
+  changeCalc - None
 
 
 Licence:
