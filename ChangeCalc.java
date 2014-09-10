@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-public class changeCalc {
+public class ChangeCalc {
 
 	
 	public static void print(String jk, int z) // Do not modify this line
