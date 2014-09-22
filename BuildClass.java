@@ -1,7 +1,8 @@
 //150% House
-//Copyright 2014 @ Will Summerlin 
 //Additions to come (Maybe): Dynamic wind effect, Humidity, Dew, Animation, Interaction 
 //YOU NEED TO IMPORT THE dme.forecastiolib.jar library. See README for a link
+//All code herein Copyright 2015 @ Will Summerlin and bound by the licence found in README.md
+
 
 package house;
 
