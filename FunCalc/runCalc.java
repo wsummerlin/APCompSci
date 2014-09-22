@@ -1,4 +1,5 @@
-//This is the main class
+//This is the main class where the calcs are called
+//All code herein Copyright 2015 @ Will Summerlin and bound by the licence found in README.md
 
 import java.util.Scanner; //No external jar's needed. 
 
