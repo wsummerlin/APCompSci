@@ -7,7 +7,7 @@ I'm an experienced programmer and developed all of these examples with a balance
 
 Note - Some files import the apcslib.jar library. It can be found here: http://pavao.org/compsci/apcs/apcslib.jar (It will download when you click the link...it shouldn't take you to another page)
 
-To use: create a java project, import apcslib.jar, then create a class within the project with the SAME name as the file (example: drawBenzine). Copy and paste the code - you're good to go. 
+To use: create a java project, import dependencies, then create a class within the project with the SAME name as the file (example: DrawBenzine). Copy and paste the code - you're good to go. 
 
 Contact me with any questions!! techpulsesoftware@gmail.com
 
