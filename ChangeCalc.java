@@ -1,7 +1,8 @@
-//Copyright 2014 @ Will Summerlin 
-//changeCalc.java 
+ //ChangeCalc.java 
 //No dependencies
 //Enter INTEGER ammount in console and press enter
+//All code herein Copyright 2015 @ Will Summerlin and bound by the licence found in README.md
+
 
 import java.util.Scanner;
 
