@@ -49,5 +49,5 @@ public class ChangeCalc {
 	public static void main(String[] args) {
 		calc();
 	}
-
+ 
 }
