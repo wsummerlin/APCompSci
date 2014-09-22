@@ -1,5 +1,7 @@
 //Best Hex
-//Copyright Will Summerlin 2014
+//Requires apcslib.jar
+//All code herein Copyright 2015 @ Will Summerlin and bound by the licence found in README.md
+
 
 import apcslib.*;
 import static java.lang.Math.*; //Needed for sin and cos
