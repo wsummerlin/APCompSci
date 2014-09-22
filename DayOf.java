@@ -1,7 +1,8 @@
 //EasterLab - DayOf.java
-//Copyright 2014 Will Summerlin 
 //No external libs needed
 //Set y to year - code will print the day and month on which Easter occurs for the given year (Gregorian calendar)
+//All code herein Copyright 2015 @ Will Summerlin and bound by the licence found in README.md
+
 
 public class DayOf {
 
