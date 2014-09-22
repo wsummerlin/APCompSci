@@ -1,6 +1,6 @@
 //Calculates values such as area and perimeter of a rectangle. Can strip apcslib.jar dependency by commenting 
 //out sketchpad and drawingtool 
-//Code Copyright 2015 @ Will Summerlin and bound by the licence found in README.md
+//All code herein Copyright 2015 @ Will Summerlin and bound by the licence found in README.md
 
 
 import apcslib.*;
