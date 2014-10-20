@@ -25,6 +25,8 @@ Descriptions:
   
   Rectangle - Class to calculate values related to a rectangle, inlcuding: Area - ```getArea()``` and Perimeter - ```getPerimeter()```. It can also draw a rectangle with the ```draw()``` function. The values can be set with the respective ```set``` functions - ```setX(double)```, ```setY(double)```, ```setWidth(double)``` and ```setHeight()```. There is a default constructor, but you should initialize the class by including ```Rectangle rectangle  = new Rectangle(double x, double y, width, height);``` in your main class code. All functions should be preceded with the object name used to initalize the class (ie ```rectangle.getHeight()```).
   
+  PackageCheck - Checks two parameters (weight | max 70lbs | and girth | max 100in |) of a package and flags it if it's too heavy or large. It accept three size dimensions: length, width, and height. The largest is thrown out and the other two are used to calculate girth. The max params can be changed: ``maxG`` and ``maxW``. Run ``test.java`` and the scanner (``sc``) will capture user input. 
+  
   
 Dependencies 
 =========
@@ -38,6 +40,8 @@ Dependencies
   ChangeCalc - None
   
   Rectangle - apcslib.jar
+  
+  PackageCheck - None
   
 
 
