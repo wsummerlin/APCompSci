@@ -58,22 +58,24 @@ public class doWork {
 		}
 	}
 	 
-	 public void check(){  
+ public void check(){  
 	
 		 double girth = 2*dim2 + 2*dim3; //Girth Calculation 
+		 double maxG = 100.0; // Max accepted girth
+		 double maxW = 70.0; // Max accepted weight
 		 
-		 if((girth<100)&&(weight<70)){ //If weight and size == true&&true
+		 if((girth<maxG)&&(weight<maxW)){ //If weight and size == true&&true 
 			 System.out.println("Package is acceptable | weight = " + weight +  " | dim1 = " + dim1 + " | dim2 = " + dim2 + " | dim3 = " + dim3 + " | girth = " + girth);
 			 
-		 }else if(girth>100){ // If size == false
+		 }else if(girth>maxG){ // If size == false
 			 
-			 if(weight>70){ // If weight == false 
+			 if(weight>maxW){ // If weight == false 
 				 System.out.println("Package is too large and too heavy | weight = " + weight +  " | dim1 = " + dim1 + " | dim2 = " + dim2 + " | dim3 = " + dim3 + " | girth = " + girth);
 				 
 			 } else //If weight == true but size == false
 				 System.out.println("Package is too large | weight = " + weight +  " | dim1 = " + dim1 + " | dim2 = " + dim2 + " | dim3 = " + dim3 + " | girth = " + girth );
 		
-		 } else if(weight>70) //If size == true but weight == false
+		 } else if(weight>maxW) //If size == true but weight == false
 			 System.out.println("Package is too heavy | weight = " + weight +  " | dim1 = " + dim1 + " | dim2 = " + dim2 + " | dim3 = " + dim3 + " | girth = " + girth);
 	 }
 	
